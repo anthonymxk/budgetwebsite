@@ -1,0 +1,29 @@
+/* NAVBAR */
+
+body {
+    background-color: rgb(232, 156, 156);
+    font-family: 'Baloo 2';
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.9);
+    backdrop-filter: blur(7px);
+
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 5vw;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgb(84, 84, 84);
+    text: uppercase;
+}
+/* END NAVBAR */
